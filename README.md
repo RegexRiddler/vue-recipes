@@ -4,51 +4,60 @@
 ### Licence
 Released under the MIT license - http://opensource.org/licenses/MIT
 
-
 ## Project setup
 
 ### Step 1: Download or clone the repository
 #### Download
-SOmething about that here
+Download this repo as a .zip file to anywhere on your computer, then un-zip your folder and change your terminals working directory to the root of this project i.e.
+```bash
+$ cd Downloads/vue-recipes-master
+```
 
 #### Clone repository with Git
-First change your working directory in the terminal to where you wish to clone the repository, then type the folowing in the terminal.
+First change your working directory in the terminal to where you wish to clone the repository, i.e.
+```bash
+$ cd Desktop
+```
+Then type the folowing in the terminal.
 ```bash
 $ git clone https://github.com/maximilian-dybvik/vue-recipes.git
 ```
 
-### Step 2: Project setup
-Next change your working directory to the root of the project (vue-recipes)
+### Step 2: Setup project
+Next change your working directory to the root of the project. (If you did this in step 1 proceed with installing dependencies).
+```bash
+$ cd vue-recipes
+```
 
 #### Install dependencies
-##### NPM
+NPM
 ```bash
 $ npm install
 ```
 
-##### YARN
+YARN
 ```bash
 $ yarn install
 ```
 
 #### Run local server for development
-##### NPM
+NPM
 ```bash
 $ npm run serve
 ```
 
-##### YARN
+YARN
 ```bash
 $ yarn serve
 ```
 
 #### Compile and minify for production
-##### NPM
+NPM
 ```bash
 $ npm run build
 ```
 
-##### YARN
+YARN
 ```bash
 $ yarn build
 ```
