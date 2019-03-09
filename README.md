@@ -30,6 +30,7 @@ $ cd vue-recipes
 ```
 
 #### Install dependencies
+Depending on what package manager you have installed use either NPM or Yarn.
 ```bash
 $ npm install
 ```
@@ -39,6 +40,7 @@ $ yarn install
 ```
 
 #### Run local server for development
+Depending on what package manager you have installed use either NPM or Yarn.
 ```bash
 $ npm run serve
 ```
@@ -48,6 +50,7 @@ $ yarn serve
 ```
 
 #### Compile and minify for production
+Depending on what package manager you have installed use either NPM or Yarn.
 ```bash
 $ npm run build
 ```
