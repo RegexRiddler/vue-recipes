@@ -1,29 +1,54 @@
-# vue-recipes
+# Vue Recipes v1.0.0
+## A simple recipe app made with Vue.js
+
+### Licence
+Released under the MIT license - http://opensource.org/licenses/MIT
+
 
 ## Project setup
-```
-yarn install
+
+### Step 1: Download or clone the repository
+#### Download
+SOmething about that here
+
+#### Clone repository with Git
+First change your working directory in the terminal to where you wish to clone the repository, then type the folowing in the terminal.
+```bash
+$ git clone https://github.com/maximilian-dybvik/vue-recipes.git
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
+### Step 2: Project setup
+Next change your working directory to the root of the project (vue-recipes)
+
+#### Install dependencies
+##### NPM
+```bash
+$ npm install
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+##### YARN
+```bash
+$ yarn install
 ```
 
-### Lints and fixes files
-```
-yarn run lint
+#### Run local server for development
+##### NPM
+```bash
+$ npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##### YARN
+```bash
+$ yarn serve
+```
+
+#### Compile and minify for production
+##### NPM
+```bash
+$ npm run build
+```
+
+##### YARN
+```bash
+$ yarn build
+```
