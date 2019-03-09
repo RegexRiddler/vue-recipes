@@ -5,6 +5,8 @@
       :title="recipes[index].title"
       :ingredients="recipes[index].ingredients"
       :url="recipes[index].href"
+      :recipeNumber="index + 1"
+      :numberOfRecipes="recipes.length"
     />
   </div>
 </template>
@@ -41,17 +43,10 @@ export default {
 </script>
 
 <style lang="sass">
-  *
-    box-sizing: border-box
-    
   body
-   background-color: #2A5362
-
-  #app
-    font-family: 'Avenir', Helvetica, Arial, sans-serif
-    -webkit-font-smoothing: antialiased
-    -moz-osx-font-smoothing: grayscale
-    text-align: center
-    color: #1F1F1F
-    margin-top: 60px
+    min-height: 100vh
+    margin: 0
+    background-image: linear-gradient(to bottom right, #FDC000, #89B859)
+    background-repeat: no-repeat
+    background-size: cover
 </style>
