@@ -30,34 +30,28 @@ $ cd vue-recipes
 ```
 
 #### Install dependencies
-NPM
 ```bash
 $ npm install
 ```
 
-YARN
 ```bash
 $ yarn install
 ```
 
 #### Run local server for development
-NPM
 ```bash
 $ npm run serve
 ```
 
-YARN
 ```bash
 $ yarn serve
 ```
 
 #### Compile and minify for production
-NPM
 ```bash
 $ npm run build
 ```
 
-YARN
 ```bash
 $ yarn build
 ```
